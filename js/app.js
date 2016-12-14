@@ -43,7 +43,6 @@ function init() {
  function loadFeed(id, cb) {
      var feedUrl = allFeeds[id].url,
          feedName = allFeeds[id].name;
-         console.log("Feedname: " + feedName + "feedURL: " + feedUrl);
 
      $.ajax({
        type: "POST",
